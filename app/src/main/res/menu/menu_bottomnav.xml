@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/menu_bottomnav_home"
-        android:title="home"
-        android:icon="@drawable/home"
+        android:id="@+id/menu_bottomnav_album"
+        android:title="Album"
+        android:icon="@drawable/ic_album_black_24dp"
         app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/menu_bottomnav_list"
-        android:title="list"
+        android:id="@+id/menu_bottomnav_home"
+        android:title="List"
         android:icon="@drawable/list"
         app:showAsAction="ifRoom"/>
 </menu>
